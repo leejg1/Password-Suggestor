@@ -1,7 +1,10 @@
-
 function copyText() {
-    const copyText = document.querySelector(".pword-field");
-    copyText.select()
+    const textToCopy = document.querySelector(".pword-field");
+    textToCopy.select()
 
-    navigator.clipboard.writeText(copyText.value);
+    navigator.clipboard.writeText(textToCopy.value);
+}
+
+function clearText() {
+    document.querySelector(".pword-field").value = "";
 }
