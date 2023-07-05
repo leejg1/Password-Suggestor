@@ -1,0 +1,33 @@
+.greatgrandparent {
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    margin: 20px;
+    /* padding: 20px; */
+}
+
+.grandparent {
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    position: relative;
+}
+
+.parent {
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+}
+
+.child {
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    /* position: absolute;
+    top: 10px;
+    left: 10px; */
+}
+
