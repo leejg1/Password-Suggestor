@@ -13,6 +13,7 @@ html ,body {
 }
 
 .sub-container {
+    display: flex;
     background-color: rgb(171, 171, 173);
     padding: 15px;
     border-radius: 10px;
@@ -22,12 +23,21 @@ html ,body {
     display: block;
     color: black;
     padding-bottom: 7px;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .pword-field {
-    width: 280px;
-    font-size: 30px; 
+    width: 225px;
+    font-size: 22px; 
 }
+
+button {
+   margin-left: 5px;
+   font-weight: bold;
+   font-size: 14px;
+   /* border-radius: 4px; */
+   /* border: 1px solid gray; */
+}
+
 
 
