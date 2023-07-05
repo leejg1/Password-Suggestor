@@ -26,7 +26,6 @@ html ,body {
 }
 
 .pword-field {
-    display: block;
     width: 280px;
     font-size: 30px; 
 }
